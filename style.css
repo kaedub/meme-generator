@@ -1,0 +1,41 @@
+section:first-child {
+    background-color: lightgrey;
+    padding-top: 50px;
+    padding-bottom: 25px;
+}
+
+.meme-section {
+    padding-left: 50px;
+    padding-right: 50px;
+    text-align: center;
+}
+
+.meme-container {
+    position: relative;
+    width: 500px;
+    height: auto;
+    display: inline-block;
+    border: 2px solid black;
+    text-align: center;
+}
+
+.meme-container img {
+    width: 100%;
+}
+
+.upper-caption, .lower-caption {
+    font-size: 24px;
+    position: absolute;
+    color: grey;
+    width: 100%;
+    color: #fff;
+    text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
+}
+
+.upper-caption {
+    top: 0%;
+}
+
+.lower-caption {
+    bottom: 0%;
+}
