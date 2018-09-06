@@ -12,7 +12,7 @@ section:first-child {
 
 .meme-container {
     position: relative;
-    background-color: black;
+    /* background-color: black; */
     width: 500px;
     height: auto;
     display: inline-block;
@@ -20,10 +20,17 @@ section:first-child {
     margin: 10px;
     text-align: center;
 }
-
-.meme-container img:hover {
+/* .meme-container:hover {
     opacity: 0.4;
-}
+} */
+/* .delete {
+    position: absolute;
+    color: blue;
+    font-size: 36px;
+    border: 1px dotted blue;
+    width: 100%;
+    z-index: 4;
+} */
 
 .meme-container img {
     width: 100%;
@@ -32,10 +39,31 @@ section:first-child {
 .upper-caption, .lower-caption {
     font-size: 24px;
     position: absolute;
-    color: grey;
     width: 100%;
     color: #fff;
     text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
+}
+
+
+
+.delete {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 10px solid red;
+    padding: 20x;
+    width: 100%;
+    height: 100%;
+    font-size: 48px;
+    top: 0%;
+    opacity: 0.3;
+    color:red;
+}
+
+
+.delete:hover {
+    opacity: 1;
 }
 
 .upper-caption {
