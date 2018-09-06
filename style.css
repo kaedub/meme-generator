@@ -12,11 +12,17 @@ section:first-child {
 
 .meme-container {
     position: relative;
+    background-color: black;
     width: 500px;
     height: auto;
     display: inline-block;
     border: 2px solid black;
+    margin: 10px;
     text-align: center;
+}
+
+.meme-container img:hover {
+    opacity: 0.4;
 }
 
 .meme-container img {
