@@ -58,16 +58,3 @@ function createElement(url, upperText, lowerText) {
     // increment memeCounter to use for next id
     memeCounter++;
 }
-/* 
-let view = {git 
-  loadMemes: function(memes) {
-    document.getElementById("memes").innerHTML = '';
-    for (let i = 0; i < memes.length; i++) {
-      let meme = memes[i];
-      let url = meme.url, top = meme.top, bottom = meme.bottom;
-      let memeDiv = "<div id='meme'><img src='" + url + "' onclick='memeGen.deleteMeme(" + i.toString() + ")'><div id='top-center'><h3>" + top.toUpperCase() + "</h3></div><div id='bottom-center'><h3>" + bottom.toUpperCase() + "</h3></div></div>";
-      document.getElementById("memes").insertAdjacentHTML('beforeend', memeDiv);
-    }
-  }
-}
-*/
